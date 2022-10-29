@@ -1,11 +1,7 @@
 
 pipeline {
 
-    agent {
-        node {
-            label 'SLAVE01'
-        }
-    }
+    agent any
 
     tools { 
         maven 'maven3' 
