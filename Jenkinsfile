@@ -1,6 +1,3 @@
-
-def pomfilepath= pom.xml
-
 pipeline {
 
     agent any
