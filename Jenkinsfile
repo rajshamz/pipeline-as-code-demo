@@ -15,7 +15,7 @@ pipeline {
 
     environment {
         APP_NAME = "DCUBE_APP",
-        APP_ENV = "dev"
+        APP_ENV = "DEV"
     }
 
     stages {
